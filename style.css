@@ -1,0 +1,51 @@
+#main {
+    background-color: blue;
+    border: 2px solid black;
+
+    width: 250px;
+
+    text-align: center;
+    align-content: center;
+    align-items: stretch;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    justify-content: center;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#feelslike-div, #humid-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+    border: 2px solid black;
+}
+
+#feelslike-div > p, #humid-div > p {
+    margin: 0px 0px;
+}
+
+#temp, #weather, #location {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#temp {
+    font-size: 2em;
+}
+#weather {
+    font-size: 1.5em;
+}
+
+#icon {
+    width: 100px;
+    height: 100px
+}
+
+
